@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure API Key
-genai.configure(api_key='AIzaSyCPCw8-RxzyEsN1QbFhS03w7pC8a2dgcnM')
+genai.configure(api_key='xxxxxxxxxxxx')
 
 def sentiment_analysis(text):
     model = genai.GenerativeModel("gemini-1.5-pro-latest")
